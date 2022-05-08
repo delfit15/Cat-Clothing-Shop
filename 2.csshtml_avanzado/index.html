@@ -1,0 +1,134 @@
+
+<!-- 
+pseudoselectors: before and after
+@keyframes: animaciones, transform, opacity
+
+API REST: ES UN SISTEMA DE COMUNICACION ENTRE EL SERVIDOR Y EL CLIENTE
+GET: PARA OBTENER DATOS
+POST: PARA CREAR DATOS
+PUT: PARA ACTUALIZAR DATOS
+DELETE: PARA ELIMINAR DATOS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cat Clothing Store</title>
+</head>
+
+<body>
+<header>
+<img src="images/logo.png" alt="cat"  height="80" >
+
+<nav>
+    <ul>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">About</a>
+        </li>
+        <li>
+            <a href="">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+</header>
+
+<main>
+<!-- hero-->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Dress me-ow</h1>
+        <p> Clothing and accesories for your cat (and your happiness)</p>
+    </div>
+
+    <div class="hero-img">
+    <img src="images/hero.png" alt="hero"  width="100%" >
+    </div>
+</section>
+<button class="btn shop-btn" id="buy-now">
+    Shop Now
+
+</button>
+
+
+<section class="card-section">
+<h2 class="card-heading">Catalogue</h2>
+<div class="card-content">
+<div class="card"> <img src="images/cupcake.png" alt="cupcake" width="auto" height=80%>
+    <div class="card-text"> 
+    <h3>Catcake</h3>
+    <p>$6.00</p>
+    </div>
+    
+</div>
+<div class="card">
+    <img src="images/potter.jpg" alt="potter"  width="auto" height=80%>
+    <div class="card-text">
+    <h3>Meow-Potter</h3>
+    <p>$5.00</p>
+    </div>
+</div>
+<div class="card">
+    <img src="images/lea.jpg" alt="lea"width="auto" height=80%>
+    <div class="card-text">
+    <h3>Cat wars</h3>
+    <p>$4.00</p>
+    </div>
+</div>
+<div class="card">
+    <img src="images/teddy.jpg" alt="teddy" width="auto" height=80%>
+    <div class="card-text">
+    <h3>Im not a cat</h3>
+    <p>$3.00</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="">
+
+<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email">
+</div>
+
+
+
+<div class="form-group">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+</div>
+
+<button type="submit" class="btn">Send</button>
+</form>
+</section>
+
+
+</main>
+
+<footer>
+<div class="footer">
+Made by Delfina Cavallaro. Find me on  <a href="https://github.com/delfit15"> Github</a>  !
+</div>
+</footer>
+
+</body>
+
+<script src="index.js"></script>
+</html>
