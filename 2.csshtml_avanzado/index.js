@@ -32,6 +32,6 @@ indexElement.innerHTML = i+1; // seteamos lo que va a tener el elemento P, que e
 cards[i].appendChild(indexElement); // appends a new element to the DOM
 
 cards[i].addEventListener('click', () => {
-    cards[i].remove; // removes the element from the DOM
+    cards[i].setAttribute() ; // removes the element from the DOM
 } );
 }
